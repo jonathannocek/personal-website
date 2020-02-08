@@ -37,7 +37,7 @@ class Main extends React.Component {
             aliquam facilisis ante interdum congue. Integer mollis, nisl amet
             convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
             magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            By the way, check out my <a href="#experience">awesome work</a>.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -56,54 +56,59 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="experience"
+          className={`${this.props.article === 'experience' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <h2 className="major">Experience</h2>
+          <span className="boldText">Discover Financial Services - </span>Data Enginnering Intern, May 2019 - Present
+						<ul>
+							<li>Worked on an Agile Software Development team as part of Cloud Data Enablement</li> 
+							<li>Designed a CI/CD Curator function utilizing AWS (S3, Lambda, DynamoDB), Terraform, and Jenkins which migrates avro files between S3 buckets - Used in production</li>
+							<li>Revitalized team documentation into central site using Sphinx to generate and Jenkins for automated deployment – Used in production</li>
+						</ul>
+					<span class="boldText">Resort Golf Intern - </span>Resort Golf Intern, May 2018 - August 2018
+						<ul>
+							<li>One of four interns selected to assist with management and operation of 54-hole resort with 300+ members</li>
+ 							<li>Planned and executed corporate outings with up to 400 golfers</li>
+							<li>Managed outdoor service staff of nearly 100 employees</li>
+						</ul>
           {close}
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="education"
+          className={`${this.props.article === 'education' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <h2 class="major">Education</h2>
+								<p><span class="boldText">Illinois Wesleyan University - </span>B.S. Computer Science
+                <ul>
+									<li>Minor in Data Science</li>
+									<li>Men's Golf Team - 2019 NCAA DIII National Champions</li>
+									<li>Member of Student-Athlete Advisory Committee (SAAC)</li>
+                </ul>
+                </p>
+								<span class="boldText">Coursework</span>
+								<ul>
+									<li>Algorithm Design and Analysis</li>
+									<li>Applied Data Analysis</li>
+									<li>Artificial Intelligence</li>
+									<li>Calculus I, II, III</li>
+									<li>Computer Networking</li>
+									<li>Capstone: Data Science</li>
+									<li>Database Systems</li>
+                  <li>Discrete Math</li>
+                  <li>Linear Algebra</li>
+									<li>Models of Computing</li>
+                  <li>Probability</li>
+									<li>Programming Languages</li>
+									<li>Software Development</li>
+								</ul>
           {close}
         </article>
 
@@ -139,26 +144,23 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
+              <a href="https://www.linkedin.com/in/jonathan-nocek-6a0615152/" className="icon fa-linkedin">
+                <span className="label">Linkedin</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
+              <a href="mailto:jnocek@iwu.edu" className="icon fa-envelope">
+                <span className="label">Email</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://www.instagram.com/jnocek24/" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/jonathannocek"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
