@@ -63,13 +63,20 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Experience</h2>
-          <span className="boldText">Discover Financial Services - </span>Data Enginnering Intern, May 2019 - Present
+          <b>Discover Financial Services </b> | Riverwoods, Illinois <br />
+          Data Enginner &bull; August 2020 
+            <ul>
+              <li>Continuing work on Cloud Data Enablement team</li>
+              <li>Starting full-time in August 2020</li>
+            </ul>
+          Data Enginnering Intern &bull; May 2019 - August 2020 
 						<ul>
 							<li>Worked on an Agile Software Development team as part of Cloud Data Enablement</li> 
 							<li>Designed a CI/CD Curator function utilizing AWS (S3, Lambda, DynamoDB), Terraform, and Jenkins which migrates avro files between S3 buckets - Used in production</li>
 							<li>Revitalized team documentation into central site using Sphinx to generate and Jenkins for automated deployment – Used in production</li>
 						</ul>
-					<span class="boldText">Resort Golf Intern - </span>Resort Golf Intern, May 2018 - August 2018
+					<b>Geneva National Resort </b> | Lake Geneva, Wisconsin <br />
+          Assistant Golf Professional &bull; May 2018 - August 2018
 						<ul>
 							<li>One of four interns selected to assist with management and operation of 54-hole resort with 300+ members</li>
  							<li>Planned and executed corporate outings with up to 400 golfers</li>
@@ -85,15 +92,15 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 class="major">Education</h2>
-								<p><span class="boldText">Illinois Wesleyan University - </span>B.S. Computer Science
+          <h2 class="major">Education</h2>  
+								<p><b>Illinois Wesleyan University - </b>B.S. Computer Science
                 <ul>
 									<li>Minor in Data Science</li>
 									<li>Men's Golf Team - 2019 NCAA DIII National Champions</li>
 									<li>Member of Student-Athlete Advisory Committee (SAAC)</li>
                 </ul>
                 </p>
-								<span class="boldText">Coursework</span>
+								<b>Coursework</b>
 								<ul>
 									<li>Algorithm Design and Analysis</li>
 									<li>Applied Data Analysis</li>
@@ -109,6 +116,24 @@ class Main extends React.Component {
 									<li>Programming Languages</li>
 									<li>Software Development</li>
 								</ul>
+          {close}
+        </article>
+
+        <article
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 class="major">Personal Projects</h2>  
+            <h3>Data Analysis</h3>
+            <p>PGA Tour Analysis: What separates the best players on Tour?
+              <ul>
+                <li>Pandas, NumPy, Matplotlib, Seaborn</li> 
+              </ul>
+            
+            </p>
           {close}
         </article>
 
