@@ -1,4 +1,4 @@
-# jonathannocek.com
+# [jonathannocek.com](http://jonathannocek.com/)
 
 ## Gatsby Starter
 
@@ -14,3 +14,10 @@ Gatsby offers many different starter templates for users to begin with. For my s
 I used this [tutorial](http://lofi.fi/deploying-gatsbyjs-to-amazon-aws/) to automatically deploy my Gatsby.js site to AWS
 S3 and Cloudfront. Now, the site will be updated with change when the 'gatsby build' command is ran. 
 
+## Home Page
+
+![home_page](images/home_page.png)
+
+## Author
+
+- Jonathan Nocek - *jnocek@iwu.edu*

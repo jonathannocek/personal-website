@@ -128,11 +128,51 @@ class Main extends React.Component {
         >
           <h2 class="major">Personal Projects</h2>  
             <h3>Data Analysis</h3>
-            <p>PGA Tour Analysis: What separates the best players on Tour?
+            <p><b><a href="https://github.com/jonathannocek/twitter-analysis" target="_blank">Twitter Analysis:</a></b> Real-time streaming and analysis of Tweets 
               <ul>
-                <li>Pandas, NumPy, Matplotlib, Seaborn</li> 
+                <li>Python</li>
+                <li>AWS S3</li>
+                <li>AWS EC2</li>
+                <li>AWS Kinesis Firehose</li> 
+                <li>AWS Lambda</li>
+                <li>AWS Comprehend</li>
+                <li>Elasticsearch</li>
+                <li>Kibana</li>
               </ul>
-            
+            </p>
+
+            <p><b><a href="https://github.com/jonathannocek/pga-data-analysis" target="_blank">PGA TOUR Data Analysis:</a></b> What separates the best players on Tour? 
+              <ul>
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>NumPy</li> 
+                <li>Matplotlib</li>
+                <li>Seaborn</li>
+              </ul>
+            </p>
+          {close}
+        </article>
+
+        <article
+          id="interests"
+          className={`${this.props.article === 'interests' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 class="major">Interests</h2>  
+            <h3>Golf</h3>
+            <p><b><a href="https://github.com/jonathannocek/twitter-analysis" target="_blank">Twitter Analysis:</a></b> Real-time streaming and analysis of Tweets 
+              <ul>
+                <li>Python</li>
+                <li>AWS S3</li>
+                <li>AWS EC2</li>
+                <li>AWS Kinesis Firehose</li> 
+                <li>AWS Lambda</li>
+                <li>AWS Comprehend</li>
+                <li>Elasticsearch</li>
+                <li>Kibana</li>
+              </ul>
             </p>
           {close}
         </article>
