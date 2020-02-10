@@ -1,8 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
   render() {
@@ -152,18 +149,9 @@ class Main extends React.Component {
         >
           <h2 class="major">Interests</h2>  
             <h3>Golf</h3>
-            <p><b><a href="https://github.com/jonathannocek/twitter-analysis" target="_blank">Twitter Analysis:</a></b> Real-time streaming and analysis of Tweets 
-              <ul>
-                <li>Python</li>
-                <li>AWS S3</li>
-                <li>AWS EC2</li>
-                <li>AWS Kinesis Firehose</li> 
-                <li>AWS Lambda</li>
-                <li>AWS Comprehend</li>
-                <li>Elasticsearch</li>
-                <li>Kibana</li>
-              </ul>
-            </p>
+              <p>To be updated...</p>
+            <h3>Travel</h3>
+              <p>To be updated...</p>
           {close}
         </article>
 

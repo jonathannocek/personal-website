@@ -1,3 +1,5 @@
+var secrets = require('./secrets.json');
+
 module.exports = {
   siteMetadata: {
     title: 'Jonathan Nocek',
@@ -19,5 +21,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
+      {
+        resolve: `gatsby-plugin-s3`,
+        options: {
+          bucketName: secrets.s3.bucket,
+          protocol: "https",
+          hostname: "www.jonathannocek.com",
+        },
+      },
   ],
 }
