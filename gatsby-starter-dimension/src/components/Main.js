@@ -137,6 +137,18 @@ class Main extends React.Component {
                 <li>Seaborn</li>
               </ul>
             </p>
+          <h3>Web Development</h3>
+            <p>
+              <b><a href="https://github.com/jonathannocek/personal-website" target="_blank">Personal Website:</a></b> Hosted using AWS S3 and CloudFront
+                <ul>
+                  <li>GatsbyJS</li>
+                  <li>HTML</li>
+                  <li>CSS</li> 
+                  <li>S3</li>
+                  <li>CloudFront</li>
+                  <li>Route 53</li>
+                </ul>
+            </p>
           {close}
         </article>
 
