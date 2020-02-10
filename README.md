@@ -12,7 +12,7 @@ Gatsby offers many different starter templates for users to begin with. For my s
 ## Deploying to AWS S3
 
 I used this [tutorial](https://www.gatsbyjs.org/docs/deploying-to-s3-cloudfront/) to automatically deploy my Gatsby.js site to AWS
-S3 and Cloudfront. Now, the site will be updated with change when the 'gatsby build' command is ran. 
+S3 and Cloudfront. Now, the site will be updated with change when the 'npm run build && npm run deploy' command is ran. 
 
 ## Home Page
 
