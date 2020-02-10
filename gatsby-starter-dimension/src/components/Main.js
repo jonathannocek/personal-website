@@ -175,28 +175,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+          <p>
+            Click on one of the icons below to find my Linkedin, Email, GitHub, or Resume.
+          </p>
           <ul className="icons">
             <li>
               <a href="https://www.linkedin.com/in/jonathan-nocek-6a0615152/" className="icon fa-linkedin">
@@ -209,16 +190,19 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/jnocek24/" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
               <a
                 href="https://github.com/jonathannocek"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://s3.us-east-2.amazonaws.com/jonathannocek.com/jonathan_nocek.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLWVhc3QtMiJHMEUCIES2QngDpMbPexg52uJ6DcZ9yr0V0AJaitwM%2BKXp2AnIAiEAj2k8YKj5wPYRHBWcBpdikvnwdX2B%2FQsuh0WNpzdTJ54qjQIIGBAAGgwxMzk4Mjk2MjMxMTIiDEZJDvPVgJhPIKHMMirqAWH2mA5CNTvOB32wxOmH6UCO%2FU8TX3eAWvI52oYZ4tWcI%2B2WaXB5BTPiGxGmK1nwAbcb8hJyeuwYLZng3HYieJYXWawP%2BGe2qsGpoSUFjt4P6ECXpFD5tSj3SUdS6GuYhqqTBt4ZnXOG0kJOv6VvFWK6%2Fj0AfR1PH2ecnlTNK859r4EBfE7Dme1ri9t8rYyHhmYBi1MYa7Vt0u9DUxrZX4LHOhdrza5bAAf6CTpn9S5%2FZdd8ZjChcJK1N15U3ohcBdc0DulPuK91vaW1fCdiMtz44kGZhkY9Tf4zd8CdXsttgBmkKe3%2BFQ3qJTDsjYPyBTqCAxAZAXhv%2FLswqpdVj8mjjt%2BhYRSAbhHg050akjBNuFGR1WjvcoKQZAmo%2Fbz3wivuuW%2FHIX9F8QuXhLYirzJC79mTt8zBBx3rNxIBPhjFcw2fWKRCIzfUsoUtgbEO8uhPTHV2F0MNyj0Dj9MA6WR7Mu8qZYjSnFDZgYMowa9MIGug%2FMb296H0xYd%2F6PV47jd8sLJTVTLSTHzmLMk9bTDl%2Bd3g%2BYcOgU6IWOu%2FnXgzOWw99D%2FJllmhXcx0kCH5wcDAz1N8ZO%2BZ7hbR48lsVulSQi3ciza9KzV%2FWXcZB5es9DFTaP0s%2FoKN8wzgTlrRqQ%2FK56jX7XgerChAMNy00qS%2FDoN453Wsx8xOtBxTI4KXsYDNomIIYFv3Dggt3n3uRNmvjRFgMYpo%2BcCX4s7chH04rKaKdTNh1xoo9yUqBYX9s1X6qYBF08oK4kYvt%2B2cOsWzvXri7aov4OPm%2BRCIi19A162qRx7wnMmZShHXsEYWcssKhzwV0o5FiR%2BYUvKmo5729Kgq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200210T143010Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIASBDT6XFEBHSXQTML%2F20200210%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=82202e470bedf193b80c49512f92970fcb1cac610101852138f746eed57b82e5"
+                className="icon fa-file-text"
+              >
+                <span className="label">Resume</span>
               </a>
             </li>
           </ul>
