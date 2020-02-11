@@ -1,4 +1,6 @@
+const path = require('path')
 var secrets = require('./secrets.json');
+
 
 module.exports = {
   siteMetadata: {
@@ -29,11 +31,11 @@ module.exports = {
           hostname: "www.jonathannocek.com",
         },
       },
-    {
-        resolve: 'gatsby-plugin-google-analytics',
+      {
+        resolve: `gatsby-plugin-google-analytics`,
         options: {
-          trackingId: 'secrets.google-tracking-id'
-      }
-    } 
+          trackingId: "UA-158193093-1"
+        },
+    },
   ],
 }

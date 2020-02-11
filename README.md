@@ -17,7 +17,7 @@ S3 and Cloudfront. Now, the site will be updated with change when the 'npm run b
 
 ## Adding Google Analytics
 
-Using this [tutorial](https://aiki-developer.com/blog/gatsby-google-analytics), I added Google Analytics to my website.
+Using this [tutorial](https://www.gatsbyjs.org/docs/adding-analytics/), I added Google Analytics to my website.
 
 ## Home Page
 
