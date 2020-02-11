@@ -7,12 +7,17 @@ Gatsby offers many different starter templates for users to begin with. For my s
 ## Technology Stack
 
 - ReactJS, HTML, CSS
-- AWS S3
+- AWS S3, CloudFront
+- Google Analytics
 
 ## Deploying to AWS S3
 
-I used this [tutorial](https://www.gatsbyjs.org/docs/deploying-to-s3-cloudfront/) to automatically deploy my Gatsby.js site to AWS
+I followed this [tutorial](https://www.gatsbyjs.org/docs/deploying-to-s3-cloudfront/) to automatically deploy my Gatsby.js site to AWS
 S3 and Cloudfront. Now, the site will be updated with change when the 'npm run build && npm run deploy' command is ran. 
+
+## Adding Google Analytics
+
+Using this [tutorial](https://aiki-developer.com/blog/gatsby-google-analytics), I added Google Analytics to my website.
 
 ## Home Page
 

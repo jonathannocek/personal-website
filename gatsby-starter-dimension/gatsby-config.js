@@ -29,5 +29,11 @@ module.exports = {
           hostname: "www.jonathannocek.com",
         },
       },
+    {
+        resolve: 'gatsby-plugin-google-analytics',
+        options: {
+          trackingId: 'secrets.google-tracking-id'
+      }
+    } 
   ],
 }
