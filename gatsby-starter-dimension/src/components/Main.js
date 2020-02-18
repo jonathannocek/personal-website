@@ -69,6 +69,15 @@ class Main extends React.Component {
  							<li>Planned and executed corporate outings with up to 400 golfers</li>
 							<li>Managed outdoor service staff of nearly 100 employees</li>
 						</ul>
+          <b>Illinois Wesleyan University </b> | Bloomington, Illinois <br />
+            Teaching Assistant: CS125 - Intro to Data Science &bull; February 2020 - Present 
+            <ul>
+              <li>Assist students with Python, Pandas, Numpy, and various other Data Science tools</li>
+            </ul>
+            Athletic Facility Control &bull; August 2017 - Present 
+            <ul>
+              <li>Responsible for operation of Shirk Athletic Center including opening and closing</li>
+            </ul>
           {close}
         </article>
 
@@ -161,9 +170,17 @@ class Main extends React.Component {
         >
           <h2 class="major">Interests</h2>  
             <h3>Golf</h3>
-              <p>To be updated...</p>
+              <p>
+                I am currently a member of the Men's Golf Team at Illinois Wesleyan University. In May 2019, our team
+                captured the program's first NCAA DIII Men's Golf Championship in Lexington, Kentucky. 
+              </p>
             <h3>Travel</h3>
-              <p>To be updated...</p>
+              <p>
+                One of my favorite things to do is see all of things the world has to offer. A few items on my bucket list include:
+                <li>The Inca Trail at Machu Picchu</li>
+                <li>The Summit of Mount Kilimanjaro</li>
+                <li>The Pyramids</li>
+              </p>
           {close}
         </article>
 
