@@ -51,7 +51,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Experience</h2>
           <b>Discover Financial Services </b> | Riverwoods, Illinois <br />
-          Data Enginner &bull; August 2020 
+          Data Engineer &bull; August 2020 
             <ul>
               <li>Continuing work on Cloud Data Enablement team</li>
               <li>Starting full-time in August 2020</li>
