@@ -56,7 +56,7 @@ class Main extends React.Component {
               <li>Continuing work on Cloud Data Enablement team</li>
               <li>Starting full-time in August 2020</li>
             </ul>
-          Data Enginnering Intern &bull; May 2019 - August 2020 
+          Data Engineering Intern &bull; May 2019 - August 2020 
 						<ul>
 							<li>Worked on an Agile Software Development team as part of Cloud Data Enablement</li> 
 							<li>Designed a CI/CD Curator function utilizing AWS (S3, Lambda, DynamoDB), Terraform, and Jenkins which migrates avro files between S3 buckets - Used in production</li>
