@@ -31,7 +31,8 @@ class Main extends React.Component {
             with a major in Computer Science with a minor in Data Science.
           </p>
           <p>
-            I will be starting my career as a Data Engineer for Discover Financial Services.
+            I will be starting my career as a Data Engineer for Discover Financial Services. I am also currently 
+            in the application process for graduate school to continue my education in Computer Science
           </p>
           <p>
             Outside of school and work, I am a member of the Men's Golf Team at IWU where we 
@@ -49,9 +50,9 @@ class Main extends React.Component {
         >
           <h2 className="major">Experience</h2>
           <b>Discover Financial Services </b> | Riverwoods, Illinois <br />
-          Data Engineer &bull; August 2020 
+          Data Engineer &bull; September 2020 - Now
             <ul>
-              <li>Continuing work on Cloud Data Enablement team</li>
+              <li>Continuing work from internship on Cloud Data Enablement team</li>
               <li>Starting full-time in September 2020</li>
             </ul>
           Data Engineering Intern &bull; May 2019 - August 2020 
