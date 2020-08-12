@@ -55,7 +55,7 @@ class Main extends React.Component {
               <li>Continuing work from internship on Cloud Data Enablement team</li>
               <li>Starting full-time in September 2020</li>
             </ul>
-          Data Engineering Intern &bull; May 2019 - August 2020 
+          Data Engineering Intern &bull; May 2019 - August 2019 
 						<ul>
 							<li>Worked on an Agile Software Development team as part of Cloud Data Enablement</li> 
 							<li>Designed a AWS Lambda function which migrates files between S3 buckets</li>
