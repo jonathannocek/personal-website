@@ -32,11 +32,11 @@ class Main extends React.Component {
           </p>
           <p>
             I will be starting my career as a Data Engineer for Discover Financial Services. I am also currently 
-            in the application process for graduate school to continue my education in Computer Science
+            in the application process for graduate school to continue my education in Computer Science.
           </p>
           <p>
-            Outside of school and work, I am a member of the Men's Golf Team at IWU where we 
-             won the 2019 Division III NCAA Men's Golf Championship!
+            Outside of work, I am an avid golfer and traveler. I was a member of the golf team at Illinois Wesleyan
+            Universtiy where our team captured the 2019 NCAA Divsion III National Championship. 
           </p>
           {close}
         </article>
@@ -59,18 +59,18 @@ class Main extends React.Component {
 						<ul>
 							<li>Worked on an Agile Software Development team as part of Cloud Data Enablement</li> 
 							<li>Designed a AWS Lambda function which migrates files between S3 buckets</li>
-							<li>Revitalized team documentation into central site using Sphinx to generate and Jenkins for automated deployment</li>
-						</ul>
-					<b>Geneva National Resort </b> | Lake Geneva, Wisconsin <br />
-          Assistant Golf Professional &bull; May 2018 - August 2018
-						<ul>
-							<li>One of four interns selected to assist with management and operation of 54-hole semi-private golf resort</li>
+							<li>Revitalized team documentation into central site using Python for scripting and Jenkins for deployment</li>
 						</ul>
           <b>Illinois Wesleyan University </b> | Bloomington, Illinois <br />
             Teaching Assistant: CS125 - Intro to Data Science &bull; February 2020 - April 2020 
             <ul>
               <li>Assist students with Python, Pandas, NumPy, and various other Data Science tools</li>
             </ul>
+					<b>Geneva National Resort </b> | Lake Geneva, Wisconsin <br />
+          Assistant Golf Professional &bull; May 2018 - August 2018
+						<ul>
+							<li>One of four interns selected to assist with management and operation of 54-hole semi-private golf resort</li>
+						</ul>
           {close}
         </article>
 
@@ -96,14 +96,18 @@ class Main extends React.Component {
 									<li>Artificial Intelligence</li>
 									<li>Calculus I, II, III</li>
 									<li>Computer Networking</li>
+                  <li>Computer Organization and Architecture</li>
 									<li>Capstone: Data Science</li>
 									<li>Database Systems</li>
                   <li>Discrete Math</li>
                   <li>Linear Algebra</li>
+                  <li>Mathematical Proofs</li>
 									<li>Models of Computing</li>
                   <li>Probability</li>
 									<li>Programming Languages</li>
+                  <li>Sets, Logic, Recursion</li>
 									<li>Software Development</li>
+                  <li>Statistics</li>
 								</ul>
           {close}
         </article>
@@ -159,16 +163,21 @@ class Main extends React.Component {
           <h2 class="major">Interests</h2>  
             <h3>Golf</h3>
               <p>
-                I am currently a member of the Men's Golf Team at Illinois Wesleyan University. In May 2019, our team
-                captured the program's first NCAA DIII Men's Golf Championship in Lexington, Kentucky. 
+                During college, I was a member of the Men's Golf Team at Illinois Wesleyan University where our team
+                captured the program's first NCAA DIII Men's Golf Championship in Lexington, Kentucky. I am still an avid
+                golfer to this day and have became interested in golf course architecture. Some of the items on my golf 
+                bucket list include:
+                <li>Bandon, Oregon Golf Trip</li>
+                <li>Scotland Golf Trip</li>
+                <li>The Masters</li>
+                <li>Austraila and New Zealand Golf Trip</li>
               </p>
             <h3>Travel</h3>
               <p>
-                One of my favorite things to do is travel and see the world. A few bucket list locations include:
-                <li>Machu Picchu, Peru</li>
-                <li>Australia and New Zealand</li>
-                <li>Golf Trip to Scotland and Ireland</li>
-                <li>Seeing the Northern Lights</li>
+                Some locations on my travel bucket list include:
+                <li>Machu Picchu</li>
+                <li>The Lofoten Islands in Northern Norway</li>
+                <li>South Africa</li>
               </p>
           {close}
         </article>
