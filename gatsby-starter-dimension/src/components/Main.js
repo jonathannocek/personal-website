@@ -27,11 +27,11 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <p>
-            Hi! My name is Jonathan Nocek and I recently graduated from Illinois Wesleyan University
+            Hi! My name is Jonathan Nocek and I graduated from Illinois Wesleyan University
             with a major in Computer Science with a minor in Data Science.
           </p>
           <p>
-            I will be starting my career as a Data Engineer for Discover Financial Services. I am also currently 
+            I recently started my career as a Software Engineer for Discover Financial Services. I am also currently 
             in the application process for graduate school to continue my education in Computer Science.
           </p>
           <p>
@@ -53,13 +53,13 @@ class Main extends React.Component {
           Data Engineer &bull; September 2020 - Now
             <ul>
               <li>Continuing work from internship on Cloud Data Enablement team</li>
-              <li>Starting full-time in September 2020</li>
+              <li>Started full-time in September 2020</li>
             </ul>
           Data Engineering Intern &bull; May 2019 - August 2019 
 						<ul>
 							<li>Worked on an Agile Software Development team as part of Cloud Data Enablement</li> 
-							<li>Designed a AWS Lambda function which migrates files between S3 buckets</li>
-							<li>Revitalized team documentation into central site using Python for scripting and Jenkins for deployment</li>
+							<li>Designed and implemented an AWS Lambda function which migrates files between S3 buckets</li>
+							<li>Created centralized documentation with a Jenkins pipeline for automated deployments</li>
 						</ul>
           <b>Illinois Wesleyan University </b> | Bloomington, Illinois <br />
             Teaching Assistant: CS125 - Intro to Data Science &bull; February 2020 - April 2020 
@@ -95,9 +95,9 @@ class Main extends React.Component {
 									<li>Applied Data Analysis</li>
 									<li>Artificial Intelligence</li>
 									<li>Calculus I, II, III</li>
+                  <li>Capstone: Data Science</li>
 									<li>Computer Networking</li>
                   <li>Computer Organization and Architecture</li>
-									<li>Capstone: Data Science</li>
 									<li>Database Systems</li>
                   <li>Discrete Math</li>
                   <li>Linear Algebra</li>
@@ -107,7 +107,6 @@ class Main extends React.Component {
 									<li>Programming Languages</li>
                   <li>Sets, Logic, Recursion</li>
 									<li>Software Development</li>
-                  <li>Statistics</li>
 								</ul>
           {close}
         </article>
@@ -170,14 +169,6 @@ class Main extends React.Component {
                 <li>Bandon, Oregon Golf Trip</li>
                 <li>Scotland Golf Trip</li>
                 <li>The Masters</li>
-                <li>Austraila and New Zealand Golf Trip</li>
-              </p>
-            <h3>Travel</h3>
-              <p>
-                Some locations on my travel bucket list include:
-                <li>Machu Picchu</li>
-                <li>The Lofoten Islands in Northern Norway</li>
-                <li>South Africa</li>
               </p>
           {close}
         </article>
